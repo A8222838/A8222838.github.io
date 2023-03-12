@@ -13,7 +13,7 @@ root.render(
       <Routes>
         <Route exact path="/front-end/" element={<HomePage />} />
         <Route exact path="/front-end/about/" element={<About />} />
-        <Route exact path="/front-end/projects" element={<Projects />} />
+        <Route exact path="/front-end/projects/" element={<Projects />} />
       </Routes>
     </Layout>
   </BrowserRouter>
