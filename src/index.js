@@ -11,9 +11,9 @@ root.render(
   <BrowserRouter>
     <Layout>
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/about/" element={<About />} />
-        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/front-end/" element={<HomePage />} />
+        <Route exact path="/front-end/about/" element={<About />} />
+        <Route exact path="/front-end/projects" element={<Projects />} />
       </Routes>
     </Layout>
   </BrowserRouter>

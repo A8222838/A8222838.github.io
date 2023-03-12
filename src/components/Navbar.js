@@ -11,19 +11,19 @@ function Navbar() {
           <Tab
             label="首頁"
             component={Link}
-            href="/"
+            href="/front-end/"
             sx={{ typography: "h6", fontWeight: 400 }}
           />
           <Tab
             label="自介"
             component={Link}
-            href="/about/"
+            href="/front-end/about/"
             sx={{ typography: "h6", fontWeight: 400 }}
           />
           <Tab
             label="專案"
             component={Link}
-            href="/projects/"
+            href="/front-end/projects/"
             sx={{ typography: "h6", fontWeight: 400 }}
           />
         </Tabs>
